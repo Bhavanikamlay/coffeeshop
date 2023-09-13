@@ -1,0 +1,600 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+.navbar-container {
+    background-image: linear-gradient(to right, #211106, #331805);
+}
+
+.navbar-bg {
+    background-color: white;
+}
+
+.image-logo {
+    height: 40px;
+}
+
+.bg-container {
+    background-image: url("https://as2.ftcdn.net/v2/jpg/06/31/26/75/1000_F_631267528_5Nxd2kDwGfXqozBUPuCXNUsYFWNIsajP.jpg");
+    background-size: cover;
+    height: 50vh;
+}
+
+
+.coffee-heading {
+    color: white;
+    font-family: "Bree serif";
+    font-size: 20px;
+    font-style: oblique;
+}
+
+@media screen and (max-width:576px) {
+    .coffee-heading {
+        color: white;
+        font-family: "Bree serif";
+        font-size: 15px;
+        font-style: oblique;
+    }
+}
+
+.coffee-heading-1 {
+    color: white;
+    font-family: "Roboto";
+    font-size: 40px;
+    font-weight: bold;
+}
+
+@media screen and (max-width:576px) {
+    .coffee-heading-1 {
+        color: white;
+        font-family: "Roboto";
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+
+
+.image-1 {
+    height: 40vh;
+    width: 40vw;
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width:576px) {
+    .image-1 {
+        height: 40vh;
+        width: 80vw;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .image-1 {
+        height: 45vh;
+        width: 40vw;
+        border-radius: 10px;
+    }
+}
+
+.coffee-special-heading {
+    color: #bf1d58;
+    font-size: 35px;
+    font-family: "Roboto";
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+@media screen and (max-width:900px) {
+    .coffee-special-heading {
+        color: #bf1d58;
+        font-size: 35px;
+        font-family: "Roboto";
+        font-weight: bold;
+        text-align: center;
+        padding-top: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .coffee-special-heading {
+        color: #bf1d58;
+        font-size: 35px;
+        font-family: "Roboto";
+        font-weight: bold;
+        text-align: center;
+        padding-top: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+.about-coffee-speciality {
+    color: #1a0810;
+    font-size: 15px;
+    font-family: "Roboto";
+    font-weight: 500;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+@media screen and (min-width:768px) {
+    .about-coffee-speciality {
+        color: #1a0810;
+        font-size: 20px;
+        font-family: "Roboto";
+        font-weight: 500;
+        text-align: center;
+        padding-top: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+.important-part {
+    color: #1a0810;
+    font-size: 15px;
+    font-family: "Roboto";
+    font-weight: bold;
+    text-align: center;
+
+}
+
+@media screen and (min-width:768px) {
+    .important-part {
+        color: #1a0810;
+        font-size: 20px;
+        font-family: "Roboto";
+        font-weight: bold;
+        text-align: center;
+
+    }
+}
+
+.button-1 {
+    border: 3px solid #590a32;
+    background-color: transparent;
+    color: #590a32;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Roboto";
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+.third-container-blog {
+    background-color: #170904;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.blog-heading {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+
+.blog-span-heading {
+    color: #753c28;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+@media screen and (min-width:576px) {
+    .blog-heading {
+        color: white;
+        font-size: 40px;
+        font-weight: bold;
+        font-family: "Roboto";
+
+    }
+
+    .blog-span-heading {
+        color: #753c28;
+        font-size: 40px;
+        font-weight: bold;
+        font-family: "Roboto";
+    }
+}
+
+.blog-para {
+    color: white;
+    font-size: 10px;
+    font-weight: 500;
+    font-family: "Roboto";
+}
+
+@media screen and (min-width:576px) {
+    .blog-para {
+        color: white;
+        font-size: 16px;
+        font-weight: 500;
+        font-family: "Roboto";
+    }
+}
+
+.blog-box-container {
+    border: 1px solid #f2d8d0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+.blog-image-1 {
+    height: 30vh;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+
+.blog-image-heading {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Roboto";
+    padding-top: 10px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.admin-name {
+    color: #deccd7;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: "Roboto";
+
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.admin-part {
+    color: #b30770;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: "Roboto";
+
+
+}
+
+.about-coffee {
+    color: #a85719;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: "Roboto";
+
+}
+
+.about-span-coffee {
+    color: #d9cabf;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: "Roboto";
+}
+
+
+
+.menu-heading {
+    color: #823d28;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+hr {
+    border: 1px solid #823d28;
+}
+
+@media screen and (min-width:768px) {
+    .menu-heading {
+        color: #823d28;
+        font-size: 50px;
+        font-weight: bold;
+        font-family: "Roboto";
+    }
+
+    hr {
+        border: 2px solid #823d28;
+    }
+}
+
+.menu-container {
+    border: 1px solid #d1c6c2;
+    border-radius: 10px;
+}
+
+.menu-image-1 {
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.star-card {
+    background-color: black;
+}
+
+.star {
+    color: #e8c61c;
+    height: 30px;
+}
+
+.coffee-cup {
+    color: #5c1e09;
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.price {
+    color: #5c1e09;
+    font-size: 25px;
+    font-family: "Roboto";
+    font-weight: bold;
+
+}
+
+.high-price {
+    color: #5c1e09;
+    font-size: 15px;
+    font-family: "Roboto";
+    font-weight: 600;
+    padding-top: 10px;
+    text-decoration: line-through;
+
+}
+
+.fifth-team-container {
+    background-color: #170904;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.team-span {
+    color: #bf0a4f;
+    font-size: 40px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.team-line {
+    border: 2px solid white;
+}
+
+@media screen and (max-width:576px) {
+    .blog-heading {
+        color: white;
+        font-size: 25px;
+        font-family: "Roboto";
+        font-weight: bold;
+    }
+
+    .team-span {
+        color: #bf0a4f;
+        font-size: 25px;
+        font-family: "Roboto";
+        font-weight: bold;
+    }
+
+    .team-line {
+        border: 1px solid white;
+    }
+
+}
+
+.team-image-container {
+
+    height: 250px;
+    width: 100%;
+
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.team-box-container {
+    background-color: white;
+    height: 20vh;
+    width: 40vw;
+    padding-top: 30px;
+
+}
+
+.team-name {
+    color: #bd4408;
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.team-position {
+    color: #ed8c5c;
+    font-size: 15px;
+    font-family: "Roboto";
+    font-weight: bold;
+
+}
+
+.id-images {
+    height: 30px;
+    background-color: #bf4d15;
+    border-radius: 5px;
+    width: 30px;
+    color: white;
+}
+
+.follow-us-icon-container {
+    background-color: #faf7e8;
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+
+    padding-top: 5px;
+    margin-left: 10px;
+}
+
+.icon {
+    color: #d0b200;
+    font-size: 15px;
+}
+
+.sixth-reservation-container {
+    background-color: white;
+
+}
+
+.reservation {
+    background-color: #2a2a42;
+    margin: 0px;
+}
+
+.reservation-heading {
+    color: #deaf16;
+    font-size: 20px;
+    font-family: "Lobster";
+}
+
+.reservation-title {
+    color: white;
+    font-size: 25px;
+    font-family: "Roboto";
+    font-weight: 600;
+}
+
+.label-name {
+    color: white;
+}
+
+.datetime {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.no-people {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.video {
+    margin: 0px;
+}
+
+.client-container {
+    border: 1px solid #cbe3b8;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 30px;
+}
+
+.icon-1 {
+    font-size: 45px;
+    color: #343061;
+}
+
+.client-main-heading {
+    color: #deaf16;
+    font-size: 25px;
+    font-family: "Lobster";
+    padding: 0px;
+    padding-top: 15px;
+}
+
+.client-says {
+    color: #343061;
+    font-size: 25px;
+    font-family: "Roboto";
+    padding: 0px;
+    padding-top: 15px;
+    font-weight: 600;
+}
+
+.client-heading {
+    color: #deaf16;
+    font-size: 10px;
+    font-family: "Lobster";
+    padding: 0px;
+    padding-top: 15px;
+}
+
+.client-prof {
+    color: black;
+    font-size: 10px;
+    font-family: "Lobster";
+    padding: 0px;
+}
+
+.client-image {
+    height: 90px;
+    width: 90px;
+    border-radius: 80px;
+}
+
+.textarea-1 {
+    margin: 0px;
+}
+
+.contact-us-container {
+    background-color: #452103;
+}
+
+.contact-header {
+    color: #ba8204;
+    font-size: 40px;
+    font-family: "Roboto";
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.contact-span {
+    color: white;
+    font-size: 40px;
+    font-family: "Roboto";
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.contact-person-details {
+    background-color: #3d3218;
+
+}
+
+.map-cont {
+    margin: 0px;
+    padding: 0px;
+}
+
+.get-touch {
+    color: white;
+    font-size: 40px;
+    font-family: "Roboto";
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.person-name-cont {
+    border: 1px solid #8c8677;
+    background-color: #12110e;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    color: white;
+}
